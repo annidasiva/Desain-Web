@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: #eaeaea;
+    color: #333;
+}
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    background-color:#ffffff;
+    overflow: hidden;
+}
+.header {
+    padding: 5px;
+}
+
+.header .logo{
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+    background-color: chocolate;
+    color: black;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 100;
+    overflow: hidden;
+    background-color: saddlebrown;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+  }
+
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.leftbar{
+    width: 200px;
+    float: left;
+    padding: 10px;
+}
+.leftbar img{
+    width: 200px;
+    height: 200px;
+}
+.leftbar h2{
+    font-weight: bold;
+    font-size: 25px;
+    width: auto;
+}
+
+.sidebar{
+    width: 250px;
+    float: right;
+    padding-right: 10px;
+    
+}
+
+.footer{
+    background-color: #333;
+    padding: 10px;
+}
+.footer .copy{
+    color: #eaeaea;
+    text-align: center;
+    font-size: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 25%;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 5px;
+    width: 50px;
+}
